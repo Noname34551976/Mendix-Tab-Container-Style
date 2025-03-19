@@ -1,0 +1,90 @@
+@import './custom-variables';
+
+    .mx-tabcontainer-red {
+        .mx-tabcontainer-tabs {
+           
+            border-color: black;
+         
+
+            > li {
+               background-color: black;
+            }
+
+            & > li > a {
+               
+                color: white;
+                &:hover,
+                &:focus {
+                    background-color: red;
+                }
+            }
+
+            & > li.active > a,
+            & > li.active > a:hover,
+            & > li.active > a:focus {
+                color: white;
+                border: black;
+                border-bottom-color: black;
+                background-color: red;
+            }
+        }
+    }
+
+     .mx-tabcontainer-green {
+        .mx-tabcontainer-tabs {
+           
+            border-color: black;
+         
+
+            > li {
+               background-color: black;
+            }
+
+            & > li > a {
+               
+                color: white;
+                &:hover,
+                &:focus {
+                    background-color: green;
+                }
+            }
+
+            & > li.active > a,
+            & > li.active > a:hover,
+            & > li.active > a:focus {
+                color: white;
+                border: black;
+                border-bottom-color: black;
+                background-color: green;
+            }
+        }
+    }
+        .mx-tabcontainer-blue {
+             .mx-tabcontainer-tabs {
+           
+            border-color: black;
+         
+
+            > li {
+               background-color: black;
+            }
+
+            & > li > a {
+               
+                color: white;
+                &:hover,
+                &:focus {
+                    background-color: blue;
+                }
+            }
+
+            & > li.active > a,
+            & > li.active > a:hover,
+            & > li.active > a:focus {
+                color: white;
+                border: black;
+                border-bottom-color: black;
+                background-color: blue;
+            }
+        }
+    }
